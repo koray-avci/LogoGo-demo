@@ -1,0 +1,118 @@
+.appDiv {
+  position: relative;
+  padding: 10px;
+  max-width: 100vw;
+}
+
+.generalContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.topInputs {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.leftInputs {
+  width: 15%;
+  padding: 5px;
+}
+
+.centerInputs {
+  width: 15%;
+  padding: 5px;
+}
+
+.centerInput {
+  display: flex;
+}
+
+.dotBtn {
+  border: none;
+  background-color: white;
+  height: 50%;
+}
+
+.rightInputs {
+  width: 15%;
+  padding: 5px;
+}
+
+.bottomInputs {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.bottomInput {
+  padding: 5px;
+}
+
+.bottomRadio {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  height: 70px;
+}
+
+.radioElement {
+  margin: 0;
+  padding-right: 5px;
+}
+
+.readOnlyBtnDiv {
+  display: flex;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.readOnlyInput {
+  border: none;
+}
+
+.dotBtnClass {
+  border-radius: var(--bs-border-radius);
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td input {
+  width: 100%;
+}
+
+.inputWithBtn{
+  display: flex;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.rowAddBtnDiv{
+  display: flex;
+  justify-content: end;
+}
+
+.buttonDiv{
+  padding: 10px;
+}
+
+.btnGroup{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+
+
+
+
